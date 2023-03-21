@@ -22,22 +22,38 @@ public class WeaponZoom : MonoBehaviour
     {
         if(Input.GetMouseButtonDown(1))
         {
-            isZoomOn = !isZoomOn;
+            if(isZoomOn == false)
+            {
+                ZoomIn();
+            }
+            else
+            {
+                ZoomOut();
+            }
         }
 
-        if(isZoomOn)
-        {
-            mainCamera.fieldOfView = scopeZoom;
-            fpsController.mouseLook.XSensitivity = zoomInSensitivity;
-            fpsController.mouseLook.YSensitivity = zoomInSensitivity;
+        
+    }
 
-        }
-        else
-        {
-            mainCamera.fieldOfView = normalZoom;
-            fpsController.mouseLook.XSensitivity = zoomOutSensitivity;
-            fpsController.mouseLook.YSensitivity = zoomOutSensitivity;
-        }
+    private void ZoomIn()
+    {
+        isZoomOn = true;
+        mainCamera.fieldOfView = scopeZoom;
+        fpsController.mouseLook.XSensitivity = zoomInSensitivity;
+        fpsController.mouseLook.YSensitivity = zoomInSensitivity;
+    }
+
+    private void ZoomOut()
+    {
+        isZoomOn = false;
+        mainCamera.fieldOfView = normalZoom;
+        fpsController.mouseLook.XSensitivity = zoomOutSensitivity;
+        fpsController.mouseLook.YSensitivity = zoomOutSensitivity;
+    }
+      
+    private void OnDisable()
+    {
+        ZoomOut();
     }
 
 }

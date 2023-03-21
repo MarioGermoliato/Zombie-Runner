@@ -1,0 +1,451 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.19f1 (c9714fde33b6) revision 13201743'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'pt' Physical Memory: 16229 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Unity Editor\2021.3.19f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Projetos no GitHub/Zombie Runner/Zombie Runner
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+57235
+Successfully changed project path to: D:/Projetos no GitHub/Zombie Runner/Zombie Runner
+D:/Projetos no GitHub/Zombie Runner/Zombie Runner
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [13316] Host "[IP] 192.168.0.9 [Port] 0 [Flags] 2 [Guid] 2051562308 [EditorId] 2051562308 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-OEMRCDE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [13316] Host "[IP] 192.168.0.9 [Port] 0 [Flags] 2 [Guid] 2051562308 [EditorId] 2051562308 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-OEMRCDE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 79.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.19f1 (c9714fde33b6)
+[Subsystems] Discovering subsystems at path D:/Unity Editor/2021.3.19f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Projetos no GitHub/Zombie Runner/Zombie Runner/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 6GB (ID=0x1c03)
+    Vendor:   NVIDIA
+    VRAM:     6052 MB
+    Driver:   31.0.15.1694
+Initialize mono
+Mono path[0] = 'D:/Unity Editor/2021.3.19f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity Editor/2021.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity Editor/2021.3.19f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56288
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity Editor/2021.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003836 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 75.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.558 seconds
+Domain Reload Profiling:
+	ReloadAssembly (558ms)
+		BeginReloadAssembly (66ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (400ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (96ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (234ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (76ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (111ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003603 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Projetos no GitHub\Zombie Runner\Zombie Runner\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Projetos no GitHub\Zombie Runner\Zombie Runner\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.890 seconds
+Domain Reload Profiling:
+	ReloadAssembly (891ms)
+		BeginReloadAssembly (100ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (688ms)
+			LoadAssemblies (76ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (239ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (299ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (200ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3166 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (463.0 KB). Loaded Objects now: 3636.
+Memory consumption went from 120.6 MB to 120.2 MB.
+Total: 3.304200 ms (FindLiveObjects: 0.271400 ms CreateObjectMapping: 0.242600 ms MarkObjects: 2.521600 ms  DeleteObjects: 0.267700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 430554.712196 seconds.
+  path: Assets/GLASSOFCOINS - FPS low poly fps/bullets
+  artifactKey: Guid(d95c29456a870a14aa731ae716377428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GLASSOFCOINS - FPS low poly fps/bullets using Guid(d95c29456a870a14aa731ae716377428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f722da44a6d091e17015803a14036bcc') in 0.009561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/GLASSOFCOINS - FPS low poly fps
+  artifactKey: Guid(7cf7b4b44b1572f4b936c79a6f53033a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GLASSOFCOINS - FPS low poly fps using Guid(7cf7b4b44b1572f4b936c79a6f53033a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75119ab95c1ecdf5472a56eb98bb28f4') in 0.006203 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/GLASSOFCOINS - FPS low poly fps/bullets/bullets.fbx
+  artifactKey: Guid(103b89bf599bf4844990447bba2b460f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GLASSOFCOINS - FPS low poly fps/bullets/bullets.fbx using Guid(103b89bf599bf4844990447bba2b460f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eb443a0c237dbc098e9b905b2e865a2') in 0.209858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.093263 seconds.
+  path: Assets/GLASSOFCOINS - FPS low poly fps/bullets/bullet_prefabs
+  artifactKey: Guid(8735caf989252104799be17a0fe9e87c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GLASSOFCOINS - FPS low poly fps/bullets/bullet_prefabs using Guid(8735caf989252104799be17a0fe9e87c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d5acf1880649d94e2f96ea561ad83cf') in 0.006845 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.053249 seconds.
+  path: Assets/GLASSOFCOINS - FPS low poly fps/bullets/bullet_prefabs/7.62x51_Bullet_No_Projectile_prefab.prefab
+  artifactKey: Guid(c5cae7811a5a9cd4d9a3406957a51340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GLASSOFCOINS - FPS low poly fps/bullets/bullet_prefabs/7.62x51_Bullet_No_Projectile_prefab.prefab using Guid(c5cae7811a5a9cd4d9a3406957a51340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '563e030a4059d725d6cc6785569675a5') in 0.016512 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.891433 seconds.
+  path: Assets/GLASSOFCOINS - FPS low poly fps/ar1(automatic rifle)
+  artifactKey: Guid(b3dbd9b1b94c137449ee0bdc38ae5c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GLASSOFCOINS - FPS low poly fps/ar1(automatic rifle) using Guid(b3dbd9b1b94c137449ee0bdc38ae5c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3c0d2d2ebd4c601095590ee5f4b7d49') in 0.005647 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.054198 seconds.
+  path: Assets/GLASSOFCOINS - FPS low poly fps/ar1(automatic rifle)/ar1(automatic rifle).fbx
+  artifactKey: Guid(7ee290c88843d2c49be639ef4dea8a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GLASSOFCOINS - FPS low poly fps/ar1(automatic rifle)/ar1(automatic rifle).fbx using Guid(7ee290c88843d2c49be639ef4dea8a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb99a5498263af0c5f41fcacafae6459') in 0.077375 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.293975 seconds.
+  path: Assets/GLASSOFCOINS - FPS low poly fps/ar1(automatic rifle)/ar1(automatic rifle)_anim
+  artifactKey: Guid(1a0bb8af04510c54691cd764aa22b420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GLASSOFCOINS - FPS low poly fps/ar1(automatic rifle)/ar1(automatic rifle)_anim using Guid(1a0bb8af04510c54691cd764aa22b420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b90ad6d69ddfb42a03bdbdc2fe0adf4') in 0.006887 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.962094 seconds.
+  path: Assets/GLASSOFCOINS - FPS low poly fps/ar2(automatic rifle)
+  artifactKey: Guid(4f1f64d415e6fb54e99a34dd99bf1ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GLASSOFCOINS - FPS low poly fps/ar2(automatic rifle) using Guid(4f1f64d415e6fb54e99a34dd99bf1ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c794ab3b8f8cb9ffeb208f176ad43a9d') in 0.007634 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.062364 seconds.
+  path: Assets/GLASSOFCOINS - FPS low poly fps/ar2(automatic rifle)/ar2(automatic rifle).fbx
+  artifactKey: Guid(f3c17a0215984b14abdef7e4c67297f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GLASSOFCOINS - FPS low poly fps/ar2(automatic rifle)/ar2(automatic rifle).fbx using Guid(f3c17a0215984b14abdef7e4c67297f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcf9a7f319059b23d2cd5549c8772dbf') in 0.030987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.750025 seconds.
+  path: Assets/GLASSOFCOINS - FPS low poly fps/pistol1
+  artifactKey: Guid(557ff60129011ae4fbefc525a73f4c47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GLASSOFCOINS - FPS low poly fps/pistol1 using Guid(557ff60129011ae4fbefc525a73f4c47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fa91e99d58599ca3046f9cf4402f8c8') in 0.006712 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.055312 seconds.
+  path: Assets/GLASSOFCOINS - FPS low poly fps/pistol1/pistol1.fbx
+  artifactKey: Guid(4e98271e1c60ef549b3240179519b7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GLASSOFCOINS - FPS low poly fps/pistol1/pistol1.fbx using Guid(4e98271e1c60ef549b3240179519b7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4823f2b615b07fb90904f4fe473e7795') in 0.040725 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.394972 seconds.
+  path: Assets/GLASSOFCOINS - FPS low poly fps/pistol2
+  artifactKey: Guid(ba866ebe745cc5a48b693cf475b1ecf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GLASSOFCOINS - FPS low poly fps/pistol2 using Guid(ba866ebe745cc5a48b693cf475b1ecf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a16986821353ef6d243e81073b4b0bb7') in 0.007755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.041328 seconds.
+  path: Assets/GLASSOFCOINS - FPS low poly fps/pistol2/pistol2.fbx
+  artifactKey: Guid(e3e075655de3a9d4cb885cccfd042991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GLASSOFCOINS - FPS low poly fps/pistol2/pistol2.fbx using Guid(e3e075655de3a9d4cb885cccfd042991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9830ef38664aed5d54d4c162ed1bef8f') in 0.028927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.275622 seconds.
+  path: Assets/GLASSOFCOINS - FPS low poly fps/shotgun1
+  artifactKey: Guid(52c8544eb04280b4280d8ac8c8004a2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GLASSOFCOINS - FPS low poly fps/shotgun1 using Guid(52c8544eb04280b4280d8ac8c8004a2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f90a306c8242379621a2dc03e312d324') in 0.006791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.046567 seconds.
+  path: Assets/GLASSOFCOINS - FPS low poly fps/shotgun1/shotgun1.fbx
+  artifactKey: Guid(3b05f053ef217764798ada4e18051b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GLASSOFCOINS - FPS low poly fps/shotgun1/shotgun1.fbx using Guid(3b05f053ef217764798ada4e18051b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db1dfd7c3711603e1e8cf2eb779ade7c') in 0.031836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.895975 seconds.
+  path: Assets/GLASSOFCOINS - FPS low poly fps/shotgun2
+  artifactKey: Guid(e6e0d35f6d5674946bfa6d175ef4d904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GLASSOFCOINS - FPS low poly fps/shotgun2 using Guid(e6e0d35f6d5674946bfa6d175ef4d904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e799abe6100d09e42d726ba83ec3f7c') in 0.005524 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.059897 seconds.
+  path: Assets/GLASSOFCOINS - FPS low poly fps/shotgun2/shotgun2.fbx
+  artifactKey: Guid(86b02dce0f932004fb0cc294ef8ba5e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GLASSOFCOINS - FPS low poly fps/shotgun2/shotgun2.fbx using Guid(86b02dce0f932004fb0cc294ef8ba5e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7774d4dbe2b6437e6cc2c010d0df155') in 0.035905 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.661532 seconds.
+  path: Assets/GLASSOFCOINS - FPS low poly fps/smg1(sub-machine gun)
+  artifactKey: Guid(a141b78092425a64ca8c626e17dff318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GLASSOFCOINS - FPS low poly fps/smg1(sub-machine gun) using Guid(a141b78092425a64ca8c626e17dff318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beb5e8a8df98f1aea700912c6987e3d6') in 0.006924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.061427 seconds.
+  path: Assets/GLASSOFCOINS - FPS low poly fps/smg1(sub-machine gun)/smg1(sub-machine gun).fbx
+  artifactKey: Guid(b672a68cb6327b44793c1fd4ca756460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GLASSOFCOINS - FPS low poly fps/smg1(sub-machine gun)/smg1(sub-machine gun).fbx using Guid(b672a68cb6327b44793c1fd4ca756460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '873c495ebefc10498f9c0d1f39c0bab8') in 0.027153 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.854676 seconds.
+  path: Assets/GLASSOFCOINS - FPS low poly fps/sniper rifle 1
+  artifactKey: Guid(3d0cba98c543b50478de4589b0bc3f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GLASSOFCOINS - FPS low poly fps/sniper rifle 1 using Guid(3d0cba98c543b50478de4589b0bc3f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b343b2edb59f1c676a37a16191ab1b14') in 0.006200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.607552 seconds.
+  path: Assets/GLASSOFCOINS - FPS low poly fps/smg2(sub-machine gun)
+  artifactKey: Guid(3e132d26bec5b6a428b5a1b90f7d4663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GLASSOFCOINS - FPS low poly fps/smg2(sub-machine gun) using Guid(3e132d26bec5b6a428b5a1b90f7d4663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb8bf5ccb816007953238cb7e529d418') in 0.007187 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.034598 seconds.
+  path: Assets/GLASSOFCOINS - FPS low poly fps/smg2(sub-machine gun)/smg2(sub-machine gun).fbx
+  artifactKey: Guid(9dc5517fd53dccb40b195e1098d5ebb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GLASSOFCOINS - FPS low poly fps/smg2(sub-machine gun)/smg2(sub-machine gun).fbx using Guid(9dc5517fd53dccb40b195e1098d5ebb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1571ab7a3b3b98e0f068d54c1bcaac68') in 0.026894 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.213227 seconds.
+  path: Assets/GLASSOFCOINS - FPS low poly fps/sniper rifle 1/sniper rifle 1.fbx
+  artifactKey: Guid(1f2bd1c22d3be4c468a13bca7f4a129c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GLASSOFCOINS - FPS low poly fps/sniper rifle 1/sniper rifle 1.fbx using Guid(1f2bd1c22d3be4c468a13bca7f4a129c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c631a089f0a4583d914bb0f810054d00') in 0.032552 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.988696 seconds.
+  path: Assets/GLASSOFCOINS - FPS low poly fps/sniper rifle 2
+  artifactKey: Guid(35965c8387a69e645a40effe6a39e77e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GLASSOFCOINS - FPS low poly fps/sniper rifle 2 using Guid(35965c8387a69e645a40effe6a39e77e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bd4e0f7e205c474ccd5553cd7a30851') in 0.005628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.071974 seconds.
+  path: Assets/GLASSOFCOINS - FPS low poly fps/sniper rifle 2/sniper rifle 2.fbx
+  artifactKey: Guid(3083a36aaa5642f468195b299e70b38e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GLASSOFCOINS - FPS low poly fps/sniper rifle 2/sniper rifle 2.fbx using Guid(3083a36aaa5642f468195b299e70b38e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f5148047ccfedf24a16473fbb161baf') in 0.042738 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.846104 seconds.
+  path: Assets/GLASSOFCOINS - FPS low poly fps/sniper rifle 2/sniper rifle 2_prefab
+  artifactKey: Guid(4a6bef910bb3a07478f2628dcb9e1e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GLASSOFCOINS - FPS low poly fps/sniper rifle 2/sniper rifle 2_prefab using Guid(4a6bef910bb3a07478f2628dcb9e1e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd945ff2112c7edca911b630888eac123') in 0.005468 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.069472 seconds.
+  path: Assets/GLASSOFCOINS - FPS low poly fps/sniper rifle 2/sniper rifle 2_prefab/sniper rifle 2_prefab.prefab
+  artifactKey: Guid(e581606b6012b2540aa3d74eb50adeaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GLASSOFCOINS - FPS low poly fps/sniper rifle 2/sniper rifle 2_prefab/sniper rifle 2_prefab.prefab using Guid(e581606b6012b2540aa3d74eb50adeaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76813a31283d55785ccaaf62f526f8fe') in 0.009671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.666930 seconds.
+  path: Assets/GLASSOFCOINS - FPS low poly fps/sniper rifle 2/sniper rifle 2_anim
+  artifactKey: Guid(410c3969009932048b8b51b6c0ea31d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GLASSOFCOINS - FPS low poly fps/sniper rifle 2/sniper rifle 2_anim using Guid(410c3969009932048b8b51b6c0ea31d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac40df5d314ea44eb40f695b44e77f25') in 0.006662 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.812019 seconds.
+  path: Assets/GLASSOFCOINS - FPS low poly fps/shotgun1/shotgun1_prefab
+  artifactKey: Guid(6ea8df4776f3e4544a05921dc6c3f897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GLASSOFCOINS - FPS low poly fps/shotgun1/shotgun1_prefab using Guid(6ea8df4776f3e4544a05921dc6c3f897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50d6eca6f1b1a927912bab734c8a435e') in 0.005556 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.049621 seconds.
+  path: Assets/GLASSOFCOINS - FPS low poly fps/shotgun1/shotgun1_prefab/shotgun1_prefab.prefab
+  artifactKey: Guid(354f121efb561d647bf71866bf2c0841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GLASSOFCOINS - FPS low poly fps/shotgun1/shotgun1_prefab/shotgun1_prefab.prefab using Guid(354f121efb561d647bf71866bf2c0841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42a3bc899bb8fc422f47b3d7d01cb10f') in 0.010686 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.532678 seconds.
+  path: Assets/GLASSOFCOINS - FPS low poly fps/throwables
+  artifactKey: Guid(047dc801d026dcc409bb75a531282af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GLASSOFCOINS - FPS low poly fps/throwables using Guid(047dc801d026dcc409bb75a531282af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6b1e755f3713137e93b1d4562a5ef3c') in 0.007079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.077327 seconds.
+  path: Assets/GLASSOFCOINS - FPS low poly fps/throwables/Flashbang_prefab.prefab
+  artifactKey: Guid(aaad480dc82c6374cb92247eb9f22c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GLASSOFCOINS - FPS low poly fps/throwables/Flashbang_prefab.prefab using Guid(aaad480dc82c6374cb92247eb9f22c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '509fc0f4c3a79a6e95b7fe0c84abcab5') in 0.012303 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/GLASSOFCOINS - FPS low poly fps/throwables/Smoke_Granade_prefab.prefab
+  artifactKey: Guid(f14ea60fe1e19e54abaffe9007fc13c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GLASSOFCOINS - FPS low poly fps/throwables/Smoke_Granade_prefab.prefab using Guid(f14ea60fe1e19e54abaffe9007fc13c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edecc1808b44cae19b245378b141d4a9') in 0.012775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.426031 seconds.
+  path: Assets/GLASSOFCOINS - FPS low poly fps/attachements
+  artifactKey: Guid(1e66f5b2df8f2b34ab16a9508fa1f9b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GLASSOFCOINS - FPS low poly fps/attachements using Guid(1e66f5b2df8f2b34ab16a9508fa1f9b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a18d3b53502154cf2f33dc7885abd9c') in 0.006795 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.060254 seconds.
+  path: Assets/GLASSOFCOINS - FPS low poly fps/attachements/attachments.fbx
+  artifactKey: Guid(ee6161c90d596ab468564bc3167be7a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GLASSOFCOINS - FPS low poly fps/attachements/attachments.fbx using Guid(ee6161c90d596ab468564bc3167be7a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80e8cfd87834caf2b1e43bea2f85d0d0') in 0.034646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.429550 seconds.
+  path: Assets/GLASSOFCOINS - FPS low poly fps/attachements/attachments_prefabs
+  artifactKey: Guid(b15086103bc9d4648bcac5386caa9ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GLASSOFCOINS - FPS low poly fps/attachements/attachments_prefabs using Guid(b15086103bc9d4648bcac5386caa9ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f3b45cf167ce389505e2deaf2c7744e') in 0.007110 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.036638 seconds.
+  path: Assets/GLASSOFCOINS - FPS low poly fps/attachements/attachments_prefabs/advanced_optic_sight_prefab.prefab
+  artifactKey: Guid(b2cdf523b67ca0c4db80094a736280d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GLASSOFCOINS - FPS low poly fps/attachements/attachments_prefabs/advanced_optic_sight_prefab.prefab using Guid(b2cdf523b67ca0c4db80094a736280d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfaca4a16bfc3ea78abc713ecd0f113f') in 0.012637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/GLASSOFCOINS - FPS low poly fps/attachements/attachments_prefabs/Laser_Module_prefab.prefab
+  artifactKey: Guid(dab64f0728d77d2418f0f33212a47303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GLASSOFCOINS - FPS low poly fps/attachements/attachments_prefabs/Laser_Module_prefab.prefab using Guid(dab64f0728d77d2418f0f33212a47303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a0e80260ddb8aee37c8c6d58a72fe71') in 0.013346 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 57.335783 seconds.
+  path: Assets/GLASSOFCOINS - FPS low poly fps/sniper rifle 1/sniper rifle 1_prefab
+  artifactKey: Guid(69198556b057b294c846ced1467e17b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GLASSOFCOINS - FPS low poly fps/sniper rifle 1/sniper rifle 1_prefab using Guid(69198556b057b294c846ced1467e17b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e97d1c2a21985dc1b2f02a34146e16c5') in 0.005883 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.052560 seconds.
+  path: Assets/GLASSOFCOINS - FPS low poly fps/sniper rifle 1/sniper rifle 1_prefab/sniper rifle 1_prefab.prefab
+  artifactKey: Guid(81ecbb98da80cb044bca47d1c79a1a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GLASSOFCOINS - FPS low poly fps/sniper rifle 1/sniper rifle 1_prefab/sniper rifle 1_prefab.prefab using Guid(81ecbb98da80cb044bca47d1c79a1a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '134768f7485a4a9858801ae3ebad53f0') in 0.012020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 512.356596 seconds.
+  path: Assets/GLASSOFCOINS - FPS low poly fps/pistol1/pistol1_prefab
+  artifactKey: Guid(98ecd16fba9d5ea4bb16c5a6b60dc79e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GLASSOFCOINS - FPS low poly fps/pistol1/pistol1_prefab using Guid(98ecd16fba9d5ea4bb16c5a6b60dc79e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c75ead32274f4a3c5e26123708cec19') in 0.007453 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.048969 seconds.
+  path: Assets/GLASSOFCOINS - FPS low poly fps/pistol1/pistol1_prefab/pistol1_prefab.prefab
+  artifactKey: Guid(63706c2e38877884d9dcb119f12d2c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GLASSOFCOINS - FPS low poly fps/pistol1/pistol1_prefab/pistol1_prefab.prefab using Guid(63706c2e38877884d9dcb119f12d2c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edafa8c329358807cfd52731a030cf24') in 0.011086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 81.372638 seconds.
+  path: Assets/Prefabs/Weapons/Carbine.prefab
+  artifactKey: Guid(ada2587319194f542957a8c2ae277cb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Weapons/Carbine.prefab using Guid(ada2587319194f542957a8c2ae277cb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c153fcee1889cec0877ffe7ea7ef0369') in 0.065420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Prefabs/Weapons/Shotgun.prefab
+  artifactKey: Guid(192a8eff60395ca498006580f2ff630a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Weapons/Shotgun.prefab using Guid(192a8eff60395ca498006580f2ff630a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e6c2924e0fc87f09b1464f451b3ec0a') in 0.041557 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 35.946266 seconds.
+  path: Assets/Prefabs/Weapons/sniper rifle 1.prefab
+  artifactKey: Guid(fd12998747751fe4a9eafd40dffcfcb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Weapons/sniper rifle 1.prefab using Guid(fd12998747751fe4a9eafd40dffcfcb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbc1dae6f5d4257c6b746808b388114d') in 0.012886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.233401 seconds.
+  path: Assets/Prefabs/Weapons/pistol1_prefab.prefab
+  artifactKey: Guid(76ab78e874c533d4f9d30b18cc9eb3fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Weapons/pistol1_prefab.prefab using Guid(76ab78e874c533d4f9d30b18cc9eb3fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6afa20dc0428d2ea62d0568c95bf7b0') in 0.011655 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.399120 seconds.
+  path: Assets/Prefabs/Weapons/shotgun1_prefab.prefab
+  artifactKey: Guid(93f4872dacae05046886c8d635aa35bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Weapons/shotgun1_prefab.prefab using Guid(93f4872dacae05046886c8d635aa35bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1ace78903c0a2af9f472397d4c919d6') in 0.011018 seconds 

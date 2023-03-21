@@ -34,4 +34,9 @@ public class Ammo : MonoBehaviour
         }
         return null;
     }
+
+    public void IncreaseAmmo(AmmoType ammoType, int amount)
+    {
+        GetAmmoSlot(ammoType).ammoAmount += amount;
+    }
 }

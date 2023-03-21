@@ -330,7 +330,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9205a357264203438a3f89150d71a2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ammoAmount: 10
+  ammoSlots: []
 --- !u!1 &7576776791366433900
 GameObject:
   m_ObjectHideFlags: 0
@@ -379,6 +379,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentWeapon: 0
+  weaponZoom: {fileID: 3446444433871249287}
 --- !u!1001 &778438294734890079
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -543,6 +544,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2337074158996965286, guid: ada2587319194f542957a8c2ae277cb9, type: 3}
   m_PrefabInstance: {fileID: 3074158328716434474}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &3446444433871249287 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 395648562730828717, guid: ada2587319194f542957a8c2ae277cb9, type: 3}
+  m_PrefabInstance: {fileID: 3074158328716434474}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e2340f6bebba364783b74aee35fe008, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &6457511973355063667
 PrefabInstance:
   m_ObjectHideFlags: 0
